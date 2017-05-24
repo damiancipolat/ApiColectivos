@@ -1,0 +1,6 @@
+Leer csv en node js:
+npm install ya-csv
+npm install mongodb
+
+Catalogo de datos de colectivos GCBA:
+https://data.buenosaires.gob.ar/dataset/colectivos
