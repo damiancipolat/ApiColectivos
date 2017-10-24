@@ -15,16 +15,16 @@ $ node recorridosLoader.js
 ```
 El proyecto se encuentra en un 80%, los servicios que actualmente ofrece el api son:
 
-- busById: Devuelve toda la info disponible sobre un idlinea de colectivo
+- #### busById: Devuelve toda la info disponible sobre un idlinea de colectivo
 Ej: http://127.0.0.1:5000/busById/7159/
 
-- busByLinea: Devuelve toda la info disponible sobre la linea de un colectivo.
+- #### busByLinea: Devuelve toda la info disponible sobre la linea de un colectivo.
 Ej: http://127.0.0.1:5000/busByLinea/101/
 
-- busNearPoint: Devuelve los recorridos de colectivos cercanos a una latitud y longitud, con un radio en metros.
+- #### busNearPoint: Devuelve los recorridos de colectivos cercanos a una latitud y longitud, con un radio en metros.
 Ej: http://127.0.0.1:5000/busNearPoint/-58.4764909777277/-34.537637026185585/1
 
-- busNearTwoPoints: Devuelve los recorridos de colectivos que pasan en común en base a dos coordenadas.
+- #### busNearTwoPoints: Devuelve los recorridos de colectivos que pasan en común en base a dos coordenadas.
 Ej: http://127.0.0.1:5000/busNearTwoPoints/-58.466854021173695/-34.550604027450575/-58.4764909777277/-34.537637026185585/1
 
 # Pendientes:
